@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+.completed{
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.task{
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.task > .box{
+  background-color: rgb(210, 206, 206);
+}
+
+.task-completed > .box{
+  background-color: red;
+
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 50%;
+  margin: auto auto;
+  box-shadow: 1px 2px 4px;
+}
+.box-content{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 2px 18px;
+  cursor: pointer;
+}
+
+.del-btn{
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+
+.task-count {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+  margin: auto auto;
+  padding: 0px 18px;
+  border-bottom: 1px solid black;
+}
+
+.actions{
+  padding: 0 17px;
+}
+
+.ed-btn{
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+form{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  gap: 5px;
+  width: 50%;
+}
+
+form input{
+  flex: 80;
+  padding: 7px 0;
+  border: none;
+  border-bottom: 2px solid navy;
+  outline: none;
+}
+form button{
+  flex: 20;
+  padding: 7px 0;
+  cursor: pointer;
+  border-radius: 8px;
+
+}
+form button:hover{
+  background-color: gray;
+}
