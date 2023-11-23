@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const BASE_URI=process.env.BASE_URL || "http://localhost:5000/todos";
+const BASE_URI=process.env.BASE_URL;
 
 //get todos
 export const getAllTodos = async() => {
